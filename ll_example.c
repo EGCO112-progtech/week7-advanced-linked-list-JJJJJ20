@@ -58,8 +58,8 @@ int main( void )
       printf( "%s", "? " );
       scanf( "%u", &choice );
    } 
-   printf("clear all node\n");
+   printf("Clear all nodes\n");
       printListD(&startPtr);
-      printf("End of run\n");// end while
+      printf("End of run.\n");// end while
   /* Clear all nodes at the end of nodes*/
 } // end main

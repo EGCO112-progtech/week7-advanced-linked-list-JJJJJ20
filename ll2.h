@@ -136,7 +136,7 @@ struct Node {
  {
     // if list is empty
     if ( isEmpty( currentPtr ) ) {
-       puts( "List is empty.\n" );
+       puts( "List is empty." );
     } // end if
     else {
        puts( "The list is:" );

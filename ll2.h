@@ -3,7 +3,7 @@
 struct Node {
     struct Node *pPtr;
     int data; // each listNode contains a character
-    char name[100];
+    char name[50];
     struct Node *nextPtr; // pointer to next node
  }; // end structure listNode
  

@@ -10,7 +10,7 @@ int main( void )
    LLPtr startPtr = NULL; // initially there are no nodes
    unsigned int choice; // user's choice
    int item; // char entered by user
-   char name[100];
+   char name[50];
 
    instructions(); // display the menu
    printf( "%s", "? " );

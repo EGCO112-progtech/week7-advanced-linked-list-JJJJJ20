@@ -158,8 +158,6 @@ struct Node {
        puts( "List is empty.\n" );
     } // end if
     else {
-       puts( "The list reverse is:" );
- 
        // while not the end of the list
        while ( pPtr->nextPtr != NULL ) {
           pPtr = pPtr->nextPtr;

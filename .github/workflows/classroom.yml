@@ -20,7 +20,17 @@ jobs:
         test-name: test1
         setup-command: ''
         command: make compile run
-        input: 1 123 mark 1 111 meet 2 111 2 123 1 114 Mode 3
+        input: 1
+        123 mark
+        1 
+        111 meet
+        2
+        111 
+        2
+        123 
+        1 
+        114 Mode 
+        3
         expected-output: |-
           114 Mode -->NULL
           114 Mode -->NULL
